@@ -1,13 +1,13 @@
-<!DOCTYPE html>
+echo '<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pipeline CI/CD</title>
+    <title>Bienvenido a mi Proyecto CI/CD</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
+            background: linear-gradient(to right, #007bff, #00c6ff);
             margin: 0;
             padding: 0;
             display: flex;
@@ -15,34 +15,38 @@
             align-items: center;
             justify-content: center;
             height: 100vh;
-        }
-        .container {
-            background: white;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+            color: white;
             text-align: center;
         }
+        .container {
+            background: rgba(255, 255, 255, 0.2);
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+            backdrop-filter: blur(10px);
+            max-width: 500px;
+        }
         h1 {
-            color: #007bff;
+            font-size: 36px;
+            margin-bottom: 10px;
         }
         p {
             font-size: 18px;
-            color: #333;
+            line-height: 1.5;
         }
         .footer {
             margin-top: 20px;
             font-size: 14px;
-            color: #666;
+            opacity: 0.8;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>🚀 ¡Despliegue Exitoso con GitHub Pages! 🚀</h1>
-        <p>Tu aplicación ha sido desplegada correctamente y está funcionando en GitHub Pages.</p>
-        <p>Revisa tu configuración en <strong>.github/workflows/ci.yml</strong> para más detalles.</p>
-        <div class="footer">© 2025 - Proyecto CI/CD</div>
+        <h1>🚀 ¡Bienvenido a mi Proyecto CI/CD! 🚀</h1>
+        <p>Este es un despliegue automático usando GitHub Actions.</p>
+        <p>Todo está funcionando perfectamente. 🎉</p>
+        <div class="footer">© 2025 - Creado por Carocris</div>
     </div>
 </body>
-</html>
+</html>' > index.html
